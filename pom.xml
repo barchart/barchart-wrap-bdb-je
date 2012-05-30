@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -9,10 +10,16 @@
 	</parent>
 
 	<artifactId>barchart-wrap-sleepycat-je</artifactId>
-	<version>4.0.92-build001</version>
+	<version>4.0.92-build001-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<description>convert bdb je to osgi bundle</description>
+
+	<scm>
+		<url>https://github.com/barchart / barchart-wrap-sleepycat-je</url>
+		<connection>scm:git:git://github.com/barchart / barchart-wrap-sleepycat-je.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart / barchart-wrap-sleepycat-je.git</developerConnection>
+	</scm>
 
 	<properties>
 
@@ -21,7 +28,7 @@
 		<unpackSource>${project.build.directory}/unpack-source</unpackSource>
 
 	</properties>
-	
+
 	<dependencies>
 
 		<dependency>
@@ -157,7 +164,7 @@
 			</plugins>
 
 		</pluginManagement>
-		
+
 	</build>
 
 </project>
