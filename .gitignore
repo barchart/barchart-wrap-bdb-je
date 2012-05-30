@@ -1,6 +1,30 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
 
-# mstest test results
-TestResults
+#
+# eclipse meta data
+#
+.project
+.classpath
+.settings/
+
+#
+# eclipse build folder
+#
+bin/
+
+#
+# maven build folder
+#
+target/
+
+#
+# apps logs
+#
+log/
+logs/
+
+#
+# maven release meta data
+#
+release.properties
+pom.xml.*
+
