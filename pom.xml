@@ -8,6 +8,7 @@
 		<version>2.1.2</version>
 	</parent>
 
+	<groupId>com.barchart.wrap</groupId>
 	<artifactId>barchart-wrap-sleepycat-je</artifactId>
 	<version>4.0.92-build002-SNAPSHOT</version>
 	<packaging>bundle</packaging>
