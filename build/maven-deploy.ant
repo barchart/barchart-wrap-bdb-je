@@ -1,15 +1,23 @@
+<!--
+
+    Copyright (C) 2011-2012 Barchart, Inc. <http://www.barchart.com/>
+
+    All rights reserved. Licensed under the OSI BSD License.
+
+    http://www.opensource.org/licenses/bsd-license.php
+
+-->
 <project default="maven" basedir="./..">
+
+	<echo message="basedir : ${basedir}" />
 
 	<target name="maven">
 
-		<echo message="basedir : ${basedir}" />
-
-		<!-- note: mvn executable must be present on o/s path -->
-		<condition property="executable" value="mvn.bat">
-			<os family="windows" />
-		</condition>
 		<condition property="executable" value="mvn">
 			<os family="unix" />
+		</condition>
+		<condition property="executable" value="mvn.bat">
+			<os family="windows" />
 		</condition>
 
 		<exec executable="${executable}">
@@ -18,7 +26,6 @@
 			<arg value="deploy" />
 
 		</exec>
-
 	</target>
 
 </project>

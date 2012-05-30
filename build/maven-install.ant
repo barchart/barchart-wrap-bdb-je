@@ -23,10 +23,9 @@
 		<exec executable="${executable}">
 
 			<arg value="clean" />
-			<arg value="package" />
+			<arg value="install" />
 
 		</exec>
-			
 	</target>
 
 </project>
