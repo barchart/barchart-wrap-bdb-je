@@ -9,16 +9,16 @@
 	</parent>
 
 	<groupId>com.barchart.wrap</groupId>
-	<artifactId>barchart-wrap-sleepycat-je</artifactId>
-	<version>4.0.92-build003-SNAPSHOT</version>
+	<artifactId>barchart-wrap-bdb-je</artifactId>
+	<version>4.0.92-build001-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<description>convert bdb je to osgi bundle</description>
 
 	<scm>
-		<url>https://github.com/barchart/barchart-wrap-sleepycat-je</url>
-		<connection>scm:git:git://github.com/barchart/barchart-wrap-sleepycat-je.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-wrap-sleepycat-je.git</developerConnection>
+		<url>https://github.com/barchart/barchart-wrap-bdb-je</url>
+		<connection>scm:git:git://github.com/barchart/barchart-wrap-bdb-je.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-wrap-bdb-je.git</developerConnection>
 	</scm>
 
 	<properties>
